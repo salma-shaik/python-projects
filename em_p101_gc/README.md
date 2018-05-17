@@ -1,5 +1,5 @@
 # python-projects
-EM-P101-GC
+EM_P101_GC:
 
 Introduction
 Python Basics
@@ -11,3 +11,5 @@ Lists and Functions
 Loops
 List Comprehensions and List Slicing with Stride
 Try and Except
+
+PS_247_BM:
