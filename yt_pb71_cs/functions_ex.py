@@ -11,7 +11,7 @@ info = {'name':'John', 'age': 22}
 
 def student_info(*args, **kwargs):
     print(args)
-    print(kwargs)
+    print(kwargs['name'])
 
 
 # student_info(courses, info)

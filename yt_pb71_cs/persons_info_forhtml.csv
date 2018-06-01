@@ -1,4 +1,5 @@
 first_name,last_name,email
+Rewards,Description
 Amy,Archer,amyarcher@fakemail.com
 Clay,Jones,clayjones@fakemail.com
 Brad,Davis,braddavis@fakemail.com
@@ -72,6 +73,7 @@ Justin,Porter,justinporter@fakemail.com
 Alex,Foley,alexfoley@fakemail.com
 Tom,Jensen,tomjensen@fakemail.com
 Travis,Jones,travisjones@fakemail.com
+No Reward,Description
 Justin,Foley,justinfoley@fakemail.com
 Jamie,Jones,jamiejones@fakemail.com
 Nina,Jensen,ninajensen@fakemail.com

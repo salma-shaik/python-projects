@@ -1,4 +1,4 @@
-from first_class_functions_ex import *
+from first_class_functions_asgnmnt import *
 
 nums_list = [1, 2, 3, 4, 5]
 

@@ -1,3 +1,10 @@
+'''
+First class functions allow us to treat functions like any other object.
+For ex we can pass functions as arguments to another function, pass functions as
+arguments and return functions.
+'''
+
+
 def square(num):
     return num*num
 
