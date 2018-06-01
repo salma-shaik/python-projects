@@ -1,0 +1,16 @@
+2018-06-01 16:50:12,363:__main__:Tried to divide by zero
+2018-06-01 16:51:28,362:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/logging_basics.py", line 37, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2018-06-01 16:52:57,504:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/logging_basics.py", line 40, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2018-06-01 16:53:41,920:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/logging_basics.py", line 41, in divide
+    result = x/y
+ZeroDivisionError: division by zero
