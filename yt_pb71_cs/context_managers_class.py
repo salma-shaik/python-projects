@@ -14,7 +14,7 @@ class Open_File():
         self.file.close()
 
 
-with Open_File('cm_samplefile.txt', 'w') as wf:
+with Open_File('cm_cls_samplefile.txt', 'w') as wf:
     wf.write('testing cm')
 
 print(wf.closed)
