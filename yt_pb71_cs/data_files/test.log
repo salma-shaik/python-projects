@@ -1,0 +1,21 @@
+2018-08-04 22:21:54,421:__main__:Tried tp divide by zero
+2018-08-04 22:22:29,223:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/test.py", line 30, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2018-08-04 22:25:08,627:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/test.py", line 33, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2018-08-04 22:25:48,462:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/test.py", line 34, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2018-08-04 22:28:50,648:common.log:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/salma/Studies/Python/python-projects/yt_pb71_cs/test.py", line 34, in divide
+    result = x/y
+ZeroDivisionError: division by zero

@@ -7,25 +7,23 @@ class TestEmployee(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        print('setUpClass')
+        print('setupClass')
 
     @classmethod
     def tearDownClass(cls):
-        print('tearDownClass')
+        print('teardownClass')
 
     def setUp(self):
         print('setUp')
         self.emp1 = Employee('John', 'Smith', 50000)
         self.emp2 = Employee('Sue', 'Rogers', 60000)
-    
+
     def tearDown(self):
         print('tearDown')
         pass
         
     def test_email(self):
         print('test_email')
-        # self.emp1 = Employee('John', 'Smith', 50000)
-        # self.emp2 = Employee('Sue', 'Rogers', 60000)
 
         self.assertEqual(self.emp1.email, 'John.Smith@email.com')
         self.assertEqual(self.emp2.email, 'Sue.Rogers@email.com')
@@ -38,8 +36,6 @@ class TestEmployee(unittest.TestCase):
 
     def test_full_name(self):
         print('test_full_name')
-        # self.emp1 = Employee('John', 'Smith', 50000)
-        # self.emp2 = Employee('Sue', 'Rogers', 60000)
 
         self.assertEqual(self.emp1.full_name, 'John Smith')
         self.assertEqual(self.emp2.full_name, 'Sue Rogers')
@@ -52,8 +48,6 @@ class TestEmployee(unittest.TestCase):
 
     def test_apply_raise(self):
         print('test_apply_raise')
-        # self.emp1 = Employee('John', 'Smith', 50000)
-        # self.emp2 = Employee('Sue', 'Rogers', 60000)
 
         self.emp1.apply_raise()
         self.emp2.apply_raise()

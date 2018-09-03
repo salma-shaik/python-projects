@@ -31,23 +31,23 @@ class Employee:
 emp1 = Employee('James', 'Smith', 50000)
 emp2 = Employee('Test', 'User', 60000)
 
-# print(emp1)
+print("just emp1: ", emp1)
 
-# print(str(emp1))
-# print(repr(emp1))
+print('str(emp1): ', str(emp1))
+print('repr(emp1): ', repr(emp1))
 
 print(emp1.__str__())
 print(emp1.__repr__())
-
-print(1+2)
-print(int.__add__(1,2))
-print(str.__add__('a','b'))
-print(str.__add__('1','2'))
-
+#
+# print(1+2)
+# print(int.__add__(1,2))
+# print(str.__add__('a','b'))
+# print(str.__add__('1','2'))
+#
 print(emp1 + emp2)
-
-print(len('test'))
-print('test'.__len__())
-
-print(emp1.__len__())
-print(len(emp2))
+#
+# print(len('test'))
+# print('test'.__len__())
+#
+# print(emp1.__len__())
+# print(len(emp2))

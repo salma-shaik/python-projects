@@ -34,3 +34,6 @@ while balance > 0:
     # end_date = end_date + datetime.timedelta(days_in_current_month)
 
     print(end_date, balance)
+
+
+print('Paid off in {} weeks'.format((end_date-start_date).days // 7))

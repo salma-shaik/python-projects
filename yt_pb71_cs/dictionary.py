@@ -3,6 +3,8 @@ print(student)
 
 print(student['name'])
 
+print(student['name'] == 'John')
+
 print(student['courses'])
 
 #print(student['phone'])
